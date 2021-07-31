@@ -1,0 +1,33 @@
+
+body,html{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(./img/bg_img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.start a{
+    text-align: center;
+    color: #f0f0f0;
+    position: absolute;
+    bottom: 20%;
+    left: 25%;
+    font-size: 60px;
+    text-decoration: none;
+    color: #f0f0f0;
+    transition: .2s;
+    font-family: 'Special Elite', cursive;
+}
+.start a:hover{
+    transition: .2s;
+    color: #CF7500;
+}
+footer.copy-light{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 20px;
+    color: #f0f0f0;
+}
